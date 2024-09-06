@@ -7,6 +7,8 @@ import Pagination from './components/pagination/Pagination.jsx'
 import LazyLoad from './components/lazyload/LazyLoad.jsx'
 import Effects from './components/effects/Effects.jsx'
 import Vertical from './components/vertical/Veritcal.jsx'
+import CustomStyle from './components/customstyle/CustomStyle.jsx'
+import CustomSlider from './components/customslider/CustomSlider.jsx'
 
 function App() {
 
@@ -27,6 +29,10 @@ function App() {
       <Effects />
       <h2>Vertical Slider</h2>
       <Vertical />
+      <h2>Custom Style</h2>
+      <CustomStyle />
+      <h2>Custom Slider</h2>
+      <CustomSlider />
 
     </>
   )
